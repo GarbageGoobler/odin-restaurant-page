@@ -40,6 +40,13 @@ nav button:hover {
   color: #ffffff;
 }
 
+nav button.active {
+  background-color: #d4c4dd;
+  color: #ffffff;
+  border-color: #b8a5c4;
+  font-weight: 600;
+}
+
 #content {
   max-width: 900px;
   margin: 0 auto;

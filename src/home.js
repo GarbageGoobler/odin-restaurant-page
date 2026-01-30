@@ -1,6 +1,4 @@
 export function loadHome(content) {
-  content.innerHTML = ''; // clear existing
-  
   /* Hero Section */
   const hero = document.createElement('section');
   hero.classList.add('hero');
