@@ -22,6 +22,12 @@ export function loadHome(content) {
   heroButton.textContent = "View Our Menu";
   hero.appendChild(heroButton);
 
+  // use button logic in `index.js`
+  heroButton.addEventListener('click', () => {
+    const menuButton = document.querySelector('nav button:nth-child(2)');
+    menuButton.click(); // simulate click
+  });
+
   content.appendChild(hero);
 
   /* Info Section */
